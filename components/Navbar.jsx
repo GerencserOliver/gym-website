@@ -15,12 +15,12 @@ const navLinks = [
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     return (
-        <nav className='fixed top-0 z-50 w-full px-10'>
+        <nav className='fixed top-0 z-50 w-full px-10 bg-blur backdrop-filter backdrop-blur-md'>
             <div className='flex flex-wrap items-center justify-between mx-auto p-5'>
                 <Link href={"/"} className='text-xl text-white font-bold'>
                     <Image src="/logo.png" alt="logo" width={100} height={50} />
                 </Link>
-                <div className='mobile-menu block md:hidden cursor-pointer'>
+                <div className='mobile-menu block md:hidden cursor-pointer text-white'>
                     {!isOpen ? (
                         <Bars3Icon className='h-8 w-8' onClick={() => setIsOpen(true)} />
                     ) : (

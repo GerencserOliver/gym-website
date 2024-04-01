@@ -5,13 +5,16 @@ import HeroImg from '../public/hero.png';
 const Hero = () => {
     return (
         <div>
-            <section className="h-screen relative">
-                <Image
-                    src={HeroImg}
-                    alt="Background Image"
-                    layout="fill"
-                    quality={100}
-                />
+            <section className="relative">
+                <div className='h-screen relative'>
+                    <Image
+                        src={HeroImg}
+                        alt="Background Image"
+                        layout="fill"
+                        objectFit="cover"
+                        quality={100}
+                    />
+                </div>
                 <div className="absolute inset-0 flex justify-center items-center">
                     <div className="text-center mx-auto max-w-lg px-1 text-white">
                         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">Crush your health and fitness goals in no time</h1>
