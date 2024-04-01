@@ -15,9 +15,9 @@ const navLinks = [
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     return (
-        <nav className='fixed top-0 z-50 w-full bg-white shadow-md'>
+        <nav className='fixed top-0 z-50 w-full px-10'>
             <div className='flex flex-wrap items-center justify-between mx-auto p-5'>
-                <Link href={"/"} className='text-xl text-black font-bold'>
+                <Link href={"/"} className='text-xl text-white font-bold'>
                     <Image src="/logo.png" alt="logo" width={100} height={50} />
                 </Link>
                 <div className='mobile-menu block md:hidden cursor-pointer'>
@@ -29,7 +29,7 @@ const Navbar = () => {
                     }
                 </div>
                 <div className='pc-menu hidden md:block md:w-auto' id='navbar'>
-                    <ul className='flex flex-col items-end md:flex-row md:space-x-8 md:items-center'>
+                    <ul className='flex flex-col items-end md:flex-row md:space-x-8 md:items-center text-white'>
                         {navLinks.map((link, index) => (
                             <li key={index}>
                                 <NavLink href={link.href} title={link.title} />
@@ -38,8 +38,8 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className='hidden md:block md:w-auto' id='navbar'>
-                    <button className=' bg-red-700 text-white px-6 py-3 rounded-md hover:bg-red-700'>
-                        <NavLink href='/login' title='Login' />
+                    <button className=' bg-blue-700 text-white px-6 py-3 rounded-md hover:bg-blue-700'>
+                        <NavLink href='/login' title='Join' />
                     </button>
                 </div>
             </div>
