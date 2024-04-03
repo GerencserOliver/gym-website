@@ -28,7 +28,7 @@ const Trainers = () => {
             <div className='container mx-auto'>
             <h2 className='text-3xl font-bold text-center'>Our Trainers</h2>
             <h1 className='text-5xl font-bold text-center mt-12 text-[#DCCA87]'>Team Of Expert Coaches</h1>
-            <p className='text-[#FFFFFF] text-1xl mt-10 text-center'>Expert team of coaches helps you succeed in any goal, personalized guidance and motivation provided!</p>
+            <p className='text-[#FFFFFF] text-xl mt-10 text-center max-w-lg mx-auto'>Expert team of coaches helps you succeed in any goal, personalized guidance and motivation provided!</p>
             <div className='flex justify-center items-center flex-wrap gap-16 mt-16 text-center'>
                 <TrainerCard 
                     imageSrc='/card-1.png' 

@@ -7,6 +7,7 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'; // Import solid icons
 import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons'; // Import brand icons
 import '@fortawesome/fontawesome-svg-core/styles.css'; // Import the styles (if you haven't already)
+import Testimonials from "@/components/Testimonials";
 
 // Add the imported icons to the library
 library.add(faEnvelope, faFacebook, faInstagram);
@@ -19,6 +20,7 @@ export default function Home() {
       <Services />
       <ChooseUs />
       <Trainers />
+      <Testimonials />
     </main>
   );
 }
