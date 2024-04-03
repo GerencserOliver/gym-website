@@ -2,7 +2,14 @@ import ChooseUs from "@/components/ChooseUs";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Services from "@/components/Services";
-import Image from "next/image";
+import Trainers from "@/components/Trainers";
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'; // Import solid icons
+import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons'; // Import brand icons
+import '@fortawesome/fontawesome-svg-core/styles.css'; // Import the styles (if you haven't already)
+
+// Add the imported icons to the library
+library.add(faEnvelope, faFacebook, faInstagram);
 
 export default function Home() {
   return (
@@ -11,6 +18,7 @@ export default function Home() {
       <Hero />
       <Services />
       <ChooseUs />
+      <Trainers />
     </main>
   );
 }

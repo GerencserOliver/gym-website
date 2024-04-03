@@ -38,7 +38,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className='hidden md:block md:w-auto' id='navbar'>
-                    <button className=' bg-blue-700 text-white px-6 py-3 rounded-md hover:bg-blue-700'>
+                    <button className=' bg-[#DCCA87] text-white px-6 py-3 rounded-md hover:bg-[#cfc292]'>
                         <NavLink href='/login' title='Join' />
                     </button>
                 </div>
