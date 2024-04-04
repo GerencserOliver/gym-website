@@ -9,7 +9,8 @@ import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons'; //
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import '@fortawesome/fontawesome-svg-core/styles.css'; // Import the styles (if you haven't already)
 import Testimonials from "@/components/Testimonials";
-import Galery from "@/components/Gallery";
+import Gallery from "@/components/Gallery";
+import Prices from "@/components/Prices";
 
 // Add the imported icons to the library
 library.add(faEnvelope, faFacebook, faInstagram, faTimes);
@@ -23,7 +24,8 @@ export default function Home() {
       <ChooseUs />
       <Trainers />
       <Testimonials />
-      <Galery />
+      <Gallery />
+      <Prices />
     </main>
   );
 }
