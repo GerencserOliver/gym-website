@@ -3,7 +3,7 @@ import React from 'react';
 const ServiceCard = ({ imageUrl, title }) => {
     return (
         <div className='relative rounded-2xl shadow-lg cursor-pointer w-96 sm:w-72'>
-            <img src={imageUrl} alt={title} className='rounded-2xl object-cover h-48 sm:h-72 w-full' />
+            <img src={imageUrl} alt={title} className='rounded-2xl object-cover h-48 sm:h-72 w-80 mx-auto' />
             <div className='absolute inset-0 flex justify-center items-center'>
                 <div>
                     <h3 className='text-2xl font-bold text-white mx-12'>{title}</h3>
