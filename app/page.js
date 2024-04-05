@@ -12,6 +12,7 @@ import Testimonials from "@/components/Testimonials";
 import Gallery from "@/components/Gallery";
 import Prices from "@/components/Prices";
 import Footer from "@/components/Footer";
+import Message from "@/components/Message";
 
 // Add the imported icons to the library
 library.add(faEnvelope, faFacebook, faInstagram, faTimes);
@@ -27,6 +28,7 @@ export default function Home() {
       <Testimonials />
       <Gallery />
       <Prices />
+      <Message />
       <Footer />
     </main>
   );
