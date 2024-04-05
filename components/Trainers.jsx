@@ -3,7 +3,7 @@ import React from 'react';
 
 const TrainerCard = ({ imageSrc, name, facebook, email, instagram }) => {
     return (
-        <div className='bg-[#1F1F1F] rounded-xl p-16'>
+        <div className='bg-[#1F1F1F] rounded-xl p-12'>
             <img src={imageSrc} alt="Trainer" className='w-64 h-64 rounded-full mx-auto' />
             <h3 className='text-[#DCCA87] font-bold text-2xl mt-4'>{name}</h3>
             <div className='flex justify-center items-center gap-4 mt-4'>
