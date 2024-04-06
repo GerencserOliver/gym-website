@@ -13,6 +13,7 @@ import Gallery from "@/components/Gallery";
 import Prices from "@/components/Prices";
 import Footer from "@/components/Footer";
 import Message from "@/components/Message";
+import About from "@/components/About";
 
 // Add the imported icons to the library
 library.add(faEnvelope, faFacebook, faInstagram, faTimes);
@@ -22,6 +23,7 @@ export default function Home() {
     <main className="overflow-hidden font-poppins">
       <Navbar />
       <Hero />
+      <About />
       <Services />
       <ChooseUs />
       <Trainers />

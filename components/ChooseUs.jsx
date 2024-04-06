@@ -31,9 +31,9 @@ const ChooseUs = () => {
             </div>
             <div className='grid grid-cols-2 sm:grid-cols-2 gap-8 mt-16 text-center'>
               <ServiceItem imageSrc="/us-1.png" title="Free Fitness Training" />
-              <ServiceItem imageSrc="/us-1.png" title="Modern Gym Equipments" />
-              <ServiceItem imageSrc="/us-1.png" title="Gym Bag Equipments" />
-              <ServiceItem imageSrc="/us-1.png" title="Fresh Bottle Water" />
+              <ServiceItem imageSrc="/us-2.png" title="Modern Gym Equipments" />
+              <ServiceItem imageSrc="/us-3.png" title="Gym Bag Equipments" />
+              <ServiceItem imageSrc="/us-4.png" title="Fresh Bottle Water" />
             </div>
             <div className='hidden md:block md:w-auto pt-12 px-6' id='navbar'>
               <button className='mt-8 px-8 py-3 text-lg font-semibold text-white bg-[#DCCA87] rounded-lg hover:bg-[#cfc292] transition-all'>
