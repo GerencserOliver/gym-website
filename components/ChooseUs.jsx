@@ -1,5 +1,4 @@
 import React from 'react';
-import NavLink from './NavLink';
 
 const ServiceItem = ({ imageSrc, title }) => {
   return (
@@ -36,9 +35,7 @@ const ChooseUs = () => {
               <ServiceItem imageSrc="/us-4.png" title="Fresh Bottle Water" />
             </div>
             <div className='hidden md:block md:w-auto pt-12 px-6' id='navbar'>
-              <button className='mt-8 px-8 py-3 text-lg font-semibold text-white bg-[#DCCA87] rounded-lg hover:bg-[#cfc292] transition-all'>
-                <NavLink href='/login' title='Our Classes ->' />
-              </button>
+              <button className='mt-8 px-8 py-3 text-lg font-semibold text-white bg-[#DCCA87] rounded-lg hover:bg-[#cfc292] transition-all'>Our classes</button>
             </div>
           </div>
         </div>
