@@ -9,10 +9,9 @@ import MenuOverlay from './MenuOverlay';
 const navLinks = [
     { href: '/', title: 'Home' },
     { href: '/about', title: 'About' },
-    { href: '/services', title: 'Services' },
-    { href: '/trainers', title: 'Trainers' },
-    { href: '/testimonials', title: 'Testimonials' },
     { href: '/gallery', title: 'Gallery' },
+    { href: '/schedule', title: 'Schedule' },
+    { href: '/testimonials', title: 'Testimonials' },
     { href: '/prices', title: 'Prices' },
     { href: '/contact', title: 'Contact' },
 ];
