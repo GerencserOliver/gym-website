@@ -13,7 +13,7 @@ import Gallery from "@/components/Gallery";
 import Prices from "@/components/Prices";
 import Footer from "@/components/Footer";
 import Message from "@/components/Message";
-import About from "@/components/About";
+import About from "@/components/AboutComp";
 
 // Add the imported icons to the library
 library.add(faEnvelope, faFacebook, faInstagram, faTimes);

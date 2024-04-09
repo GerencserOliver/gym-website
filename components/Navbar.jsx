@@ -7,9 +7,14 @@ import {Bars3Icon, XMarkIcon} from '@heroicons/react/24/solid';
 import MenuOverlay from './MenuOverlay';
 
 const navLinks = [
-    { href: '#home', title: 'Home' },
-    { href: '#about', title: 'About' },
-    { href: '#contact', title: 'Contact' },
+    { href: '/', title: 'Home' },
+    { href: '/about', title: 'About' },
+    { href: '/services', title: 'Services' },
+    { href: '/trainers', title: 'Trainers' },
+    { href: '/testimonials', title: 'Testimonials' },
+    { href: '/gallery', title: 'Gallery' },
+    { href: '/prices', title: 'Prices' },
+    { href: '/contact', title: 'Contact' },
 ];
 
 const Navbar = () => {
