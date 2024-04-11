@@ -22,3 +22,8 @@ body{
     width: 100%;
     height: 45vh;
 }
+
+.current-day {
+    background-color: #DCCA87;
+    color: white;
+}  
