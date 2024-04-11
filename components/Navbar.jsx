@@ -4,6 +4,8 @@ import Link from 'next/link';
 import Image from "next/image"
 import NavLink from './NavLink';
 import {Bars3Icon, XMarkIcon} from '@heroicons/react/24/solid';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPlus } from '@fortawesome/free-solid-svg-icons';
 import MenuOverlay from './MenuOverlay';
 
 const navLinks = [
@@ -11,8 +13,8 @@ const navLinks = [
     { href: '/about', title: 'About' },
     { href: '/gallery', title: 'Gallery' },
     { href: '/schedule', title: 'Schedule' },
-    { href: '/testimonials', title: 'Testimonials' },
-    { href: '/prices', title: 'Prices' },
+    { href: '/classes', title: 'Testimonials' },
+    { href: '/pricing', title: 'Prices' },
     { href: '/contact', title: 'Contact' },
 ];
 
@@ -41,10 +43,11 @@ const Navbar = () => {
                         ))}
                     </ul>
                 </div>
-                <div className='hidden md:block md:w-auto' id='navbar'>
-                    <button className=' bg-[#DCCA87] text-white px-6 py-3 rounded-md hover:bg-[#cfc292]'>
-                        <NavLink href='/login' title='Join' />
-                    </button>
+                <div className='border-2 p-2 rounded-md border-[#DCCA87] hidden md:block'>
+                    <a href="/contact" className="flex items-center">
+                        <FontAwesomeIcon icon={faPlus} className='text-white text-xl mr-2 bg-[#DCCA87] p-2 rounded-md hover:animate-spin' />
+                        <h3 className="text-white font-bold text-lg">Join class now</h3>
+                    </a>
                 </div>
             </div>
             {isOpen && <MenuOverlay links={navLinks} />}
