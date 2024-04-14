@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
 
-const Classes = ({ trainingClass, time, trainer }) => {
+const ScheduleCards = ({ trainingClass, time, trainer }) => {
   return (
     <div className="flex flex-col md:flex-row items-center justify-between w-10/12 mx-auto my-1 p-6 rounded-xl bg-[#F2F2F2]">
       <div className='flex flex-col md:flex-row gap-4 md:gap-12'>
@@ -103,7 +103,7 @@ const Schedule = () => {
       </div>
       <div className="flex flex-col items-center justify-center mt-8 text-black text-xl w-3/4 mx-auto mb-24">
         {classesByDay[currentDay].map((classInfo, index) => (
-          <Classes
+          <ScheduleCards
             key={index}
             trainingClass={classInfo.trainingClass}
             time={classInfo.time}
