@@ -29,7 +29,7 @@ const About = () => {
             <button className="mt-8 px-8 py-3 text-lg font-semibold text-white bg-[#DCCA87] rounded-lg hover:bg-[#cfc292] transition-all">Contact us</button>
           </div>
           <div className='flex justify-center md:justify-end'>
-            <img className="max-w-full" src="/about-img.png" alt="About us" />
+            <img className="max-w-full" src="/AboutPage/about-img.png" alt="About us" />
           </div>
         </div>
       </div>

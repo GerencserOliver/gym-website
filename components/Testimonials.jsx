@@ -4,16 +4,16 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Image from 'next/image';
-import Testimonial1 from '../public/card-1.png';
-import Testimonial2 from '../public/card-2.png';
-import Testimonial3 from '../public/card-3.png';
-import Testimonial4 from '../public/card-4.png';
-import Testimonial5 from '../public/card-5.png';
-import Logo1 from '../public/testimonials-1.png';
-import Logo2 from '../public/testimonials-2.png';
-import Logo3 from '../public/testimonials-3.png';
-import Logo4 from '../public/testimonials-4.png';
-import Logo5 from '../public/testimonials-5.png';
+import Testimonial1 from '../public/Testimonials/card-1.png';
+import Testimonial2 from '../public/Testimonials/card-2.png';
+import Testimonial3 from '../public/Testimonials/card-3.png';
+import Testimonial4 from '../public/Testimonials/card-4.png';
+import Testimonial5 from '../public/Testimonials/card-5.png';
+import Logo1 from '../public/Testimonials/logo-1.png';
+import Logo2 from '../public/Testimonials/logo-2.png';
+import Logo3 from '../public/Testimonials/logo-3.png';
+import Logo4 from '../public/Testimonials/logo-4.png';
+import Logo5 from '../public/Testimonials/logo-5.png';
 
 const TestimonialCard = ({ imageUrl, text }) => {
   return (

@@ -31,21 +31,21 @@ const Trainers = () => {
             <p className='text-[#FFFFFF] text-xl mt-10 text-center max-w-lg mx-auto'>Expert team of coaches helps you succeed in any goal, personalized guidance and motivation provided!</p>
             <div className='flex justify-center items-center flex-wrap gap-16 mt-16 text-center'>
                 <TrainerCard 
-                    imageSrc='/trainer-1.png' 
+                    imageSrc='/Trainers/trainer-1.png' 
                     name='John Doe' 
                     facebook='https://www.facebook.com/johndoe'
                     email='johndoe@example.com'
                     instagram='https://www.instagram.com/johndoe'
                 />
                 <TrainerCard 
-                    imageSrc='/trainer-2.png' 
+                    imageSrc='/Trainers/trainer-2.png' 
                     name='Jane Doe' 
                     facebook='https://www.facebook.com/janedoe'
                     email='janedoe@example.com'
                     instagram='https://www.instagram.com/janedoe'
                 />
                 <TrainerCard 
-                    imageSrc='/trainer-3.png' 
+                    imageSrc='/Trainers/trainer-3.png' 
                     name='John Smith' 
                     facebook='https://www.facebook.com/johnsmith'
                     email='johnsmith@example.com'

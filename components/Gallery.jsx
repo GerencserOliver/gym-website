@@ -27,12 +27,12 @@ const Galery = () => {
                 </div>
                 <div className='flex flex-wrap justify-center mt-12 border-b border-solid border-[#64646438] pb-28'>
                     <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4">
-                        <img src="/gym-img-1.png" alt="gallery" className='cursor-pointer w-full grayscale duration-300 hover:grayscale-0' onClick={() => openImg('/gym-img-1.png')} />
-                        <img src="/gym-img-2.png" alt="gallery" className='cursor-pointer w-full grayscale duration-300 hover:grayscale-0' onClick={() => openImg('/gym-img-2.png')} />
-                        <img src="/gym-img-3.png" alt="gallery" className='cursor-pointer w-full grayscale duration-300 hover:grayscale-0' onClick={() => openImg('/gym-img-3.png')} />
-                        <img src="/gym-img-4.png" alt="gallery" className='cursor-pointer w-full grayscale duration-300 hover:grayscale-0' onClick={() => openImg('/gym-img-4.png')} />
-                        <img src="/gym-img-5.png" alt="gallery" className='cursor-pointer w-full grayscale duration-300 hover:grayscale-0' onClick={() => openImg('/gym-img-5.png')} />
-                        <img src="/gym-img-6.png" alt="gallery" className='cursor-pointer w-full grayscale duration-300 hover:grayscale-0' onClick={() => openImg('/gym-img-6.png')} />
+                        <img src="/Gallery/gym-img-1.png" alt="gallery" className='cursor-pointer w-full grayscale duration-300 hover:grayscale-0' onClick={() => openImg('/Gallery/gym-img-1.png')} />
+                        <img src="/Gallery/gym-img-2.png" alt="gallery" className='cursor-pointer w-full grayscale duration-300 hover:grayscale-0' onClick={() => openImg('/Gallery/gym-img-2.png')} />
+                        <img src="/Gallery/gym-img-3.png" alt="gallery" className='cursor-pointer w-full grayscale duration-300 hover:grayscale-0' onClick={() => openImg('/Gallery/gym-img-3.png')} />
+                        <img src="/Gallery/gym-img-4.png" alt="gallery" className='cursor-pointer w-full grayscale duration-300 hover:grayscale-0' onClick={() => openImg('/Gallery/gym-img-4.png')} />
+                        <img src="/Gallery/gym-img-5.png" alt="gallery" className='cursor-pointer w-full grayscale duration-300 hover:grayscale-0' onClick={() => openImg('/Gallery/gym-img-5.png')} />
+                        <img src="/Gallery/gym-img-6.png" alt="gallery" className='cursor-pointer w-full grayscale duration-300 hover:grayscale-0' onClick={() => openImg('/Gallery/gym-img-6.png')} />
                     </div>
                 </div>
             </section>

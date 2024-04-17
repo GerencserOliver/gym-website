@@ -20,10 +20,10 @@ const Services = () => {
                 <div className='container mx-auto'>
                     <h2 className='text-6xl font-bold text-center text-white'>We offer something for everybody</h2>
                     <div className='flex justify-center items-center flex-wrap gap-8 mt-16 text-center'>
-                        <ServiceCard imageUrl="/personal-training.png" title="Personal Training"/>
-                        <ServiceCard imageUrl="/yoga.png" title="Yoga Classes" />
-                        <ServiceCard imageUrl="/nutrition.png" title="Nutrition Consultation" />
-                        <ServiceCard imageUrl="/group-workout.png" title="Group Workouts" />
+                        <ServiceCard imageUrl="/Services/personal-training.png" title="Personal Training"/>
+                        <ServiceCard imageUrl="/Services/yoga.png" title="Yoga Classes" />
+                        <ServiceCard imageUrl="/Services/nutrition.png" title="Nutrition Consultation" />
+                        <ServiceCard imageUrl="/Services/group-workout.png" title="Group Workouts" />
                     </div>
                 </div>
             </section>

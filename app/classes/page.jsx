@@ -37,12 +37,12 @@ const Classes = () => {
   }
 
   const allClasses = [
-    { imageUrl: "/cycling.png", title: "Cycling", time: "Monday 4:00 PM", trainer: "John Doe" },
-    { imageUrl: "/meditation.png", title: "Meditation", time: "Tuesday 5:00 PM", trainer: "Jane Doe" },
-    { imageUrl: "/boxing.png", title: "Boxing", time: "Wednesday 6:00 PM", trainer: "John Doe" },
-    { imageUrl: "/running.png", title: "Running", time: "Thursday 7:00 PM", trainer: "Jane Doe" },
-    { imageUrl: "/powerlifting.png", title: "Power Lifting", time: "Friday 8:00 PM", trainer: "John Doe" },
-    { imageUrl: "/crossfit.png", title: "Crossfit", time: "Saturday 9:00 PM", trainer: "Jane Doe" }
+    { imageUrl: "/Classes/cycling.png", title: "Cycling", time: "Monday 4:00 PM", trainer: "John Doe" },
+    { imageUrl: "/Classes/meditation.png", title: "Meditation", time: "Tuesday 5:00 PM", trainer: "Jane Doe" },
+    { imageUrl: "/Classes/boxing.png", title: "Boxing", time: "Wednesday 6:00 PM", trainer: "John Doe" },
+    { imageUrl: "/Classes/running.png", title: "Running", time: "Thursday 7:00 PM", trainer: "Jane Doe" },
+    { imageUrl: "/Classes/powerlifting.png", title: "Power Lifting", time: "Friday 8:00 PM", trainer: "John Doe" },
+    { imageUrl: "/Classes/crossfit.png", title: "Crossfit", time: "Saturday 9:00 PM", trainer: "Jane Doe" }
   ]
 
   const visibleClasses = showMore ? allClasses : allClasses.slice(0, 3)
