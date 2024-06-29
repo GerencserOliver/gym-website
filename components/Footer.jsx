@@ -16,14 +16,14 @@ const Footer = () => {
                             </div>
                             <p className='mt-4 max-w-sm md:max-w-full'>Take your health and body to the next level with our comprehensive program designed to help you reach your fitness goals.</p>
                             <div className='mt-4'>
-                                <a href='#'>
-                                    <FontAwesomeIcon icon={['fab', 'facebook']} className='text-[#DCCA87] text-2xl bg-black p-2 rounded-full transition duration-300 hover:bg-[#DCCA87] hover:text-black mr-4' />
+                                <a href='#' className='text-[#DCCA87] text-2xl bg-black p-2 px-3 rounded-full transition duration-300 hover:bg-[#DCCA87] hover:text-black mr-4'>
+                                    <FontAwesomeIcon icon={['fab', 'facebook']}/>
                                 </a>
-                                <a href='#'>
-                                    <FontAwesomeIcon icon={['fab', 'instagram']} className='text-[#DCCA87] text-2xl bg-black p-2 rounded-full transition duration-300 hover:bg-[#DCCA87] hover:text-black mr-4' />
+                                <a href='#' className='text-[#DCCA87] text-2xl bg-black p-2 px-3 rounded-full transition duration-300 hover:bg-[#DCCA87] hover:text-black mr-4'>
+                                    <FontAwesomeIcon icon={['fab', 'instagram']}/>
                                 </a>
-                                <a href='#'>
-                                    <FontAwesomeIcon icon={['fas', 'envelope']} className='text-[#DCCA87] text-2xl bg-black p-2 rounded-full transition duration-300 hover:bg-[#DCCA87] hover:text-black' />
+                                <a href='#' className='text-[#DCCA87] text-2xl bg-black p-2 px-3 rounded-full transition duration-300 hover:bg-[#DCCA87] hover:text-black mr-4'>
+                                    <FontAwesomeIcon icon={['fas', 'envelope']}/>
                                 </a>
                             </div>
                             <div>

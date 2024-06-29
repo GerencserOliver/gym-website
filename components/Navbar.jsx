@@ -45,7 +45,9 @@ const Navbar = () => {
                 </div>
                 <div className='border-2 p-2 rounded-md border-[#DCCA87] hidden md:block'>
                     <a href="/contact" className="flex items-center">
-                        <FontAwesomeIcon icon={faPlus} className='text-white text-xl mr-2 bg-[#DCCA87] p-2 rounded-md hover:animate-spin' />
+                        <div className='text-2xl p-1 bg-[#DCCA87] rounded-md px-2 mr-2 text-white'>
+                            <FontAwesomeIcon icon={faPlus}/>
+                        </div>
                         <h3 className="text-white font-bold text-lg">Join class now</h3>
                     </a>
                 </div>
