@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTimes } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fontawesome/react-fontawesome';
+import { faTimes } from '@fontawesome/free-solid-svg-icons';
 
 const Galery = () => {
     const [showImg, setShowImg] = useState(false);
