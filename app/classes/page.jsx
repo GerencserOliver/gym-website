@@ -2,8 +2,8 @@
 import Footer from '@/components/Footer'
 import Message from '@/components/Message'
 import Navbar from '@/components/Navbar'
-import { faClock, faUser } from '@fontawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fontawesome/react-fontawesome'
+import { faClock, faUser } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { useState } from 'react'
 
 const ClassesCard = ({ imageUrl, title, time, trainer }) => {

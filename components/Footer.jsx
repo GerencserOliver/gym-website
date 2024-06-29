@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import { FontAwesomeIcon } from '@fontawesome/react-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Footer = () => {
     const currentYear = new Date().getFullYear();

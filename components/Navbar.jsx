@@ -4,8 +4,8 @@ import Link from 'next/link';
 import Image from "next/image"
 import NavLink from './NavLink';
 import {Bars3Icon, XMarkIcon} from '@heroicons/react/24/solid';
-import { FontAwesomeIcon } from '@fontawesome/react-fontawesome';
-import { faPlus } from '@fontawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPlus } from '@fortawesome/free-solid-svg-icons';
 import MenuOverlay from './MenuOverlay';
 
 const navLinks = [
